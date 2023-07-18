@@ -18,8 +18,8 @@ function apiSuccess(array $data = [])
 function apiError(int $code, string $msg, array $data = [], array $trace = [])
 {
     $res = [
-        'code' => \app\enum\ErrorCode::SUCCESS,
-        'msg'  => 'ok',
+        'code' => $code,
+        'msg'  => $msg,
     ];
     if ($data) {
         $res['data'] = $data;

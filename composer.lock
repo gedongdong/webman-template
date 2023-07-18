@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f64761511f12fbe5ba6c0f199dd9f1ee",
+    "content-hash": "fc6281f792d3207f671194968f436bba",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -3192,65 +3192,6 @@
                 }
             ],
             "time": "2022-01-24T18:55:24+00:00"
-        },
-        {
-            "name": "webman/console",
-            "version": "v1.2.36",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webman-php/console.git",
-                "reference": "82c75368feab013200048cc1f87a6d376a4ca59d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webman-php/console/zipball/82c75368feab013200048cc1f87a6d376a4ca59d",
-                "reference": "82c75368feab013200048cc1f87a6d376a4ca59d",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "doctrine/inflector": "^2.0",
-                "symfony/console": ">=5.0"
-            },
-            "require-dev": {
-                "workerman/webman": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Webman\\Console\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "walkor",
-                    "email": "walkor@workerman.net",
-                    "homepage": "http://www.workerman.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Webman console",
-            "homepage": "http://www.workerman.net",
-            "keywords": [
-                "webman console"
-            ],
-            "support": {
-                "email": "walkor@workerman.net",
-                "forum": "http://www.workerman.net/questions",
-                "issues": "https://github.com/webman-php/console/issues",
-                "source": "https://github.com/webman-php/console",
-                "wiki": "http://www.workerman.net/doc/webman"
-            },
-            "time": "2023-07-03T10:48:08+00:00"
         },
         {
             "name": "webman/redis-queue",

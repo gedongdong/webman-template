@@ -34,8 +34,7 @@
     "illuminate/pagination": "^8.83",
     "illuminate/events": "^8.83",
     "symfony/var-dumper": "^5.4",
-    "guzzlehttp/guzzle": "^7.7",
-    "webman/console": "^1.2"
+    "guzzlehttp/guzzle": "^7.7"
   },
   "suggest": {
     "ext-event": "For better performance. "
